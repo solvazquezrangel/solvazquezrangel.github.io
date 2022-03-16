@@ -1,0 +1,198 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Formularios</title>
+<link href="../CSS/Estilo-1.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+<header>
+		<h1>FORMULARIO</h1>
+	</header>
+	<nav>
+		<ul>
+			<li><a href="../index.html">Inicio</a></li>
+			<li><a href="Audios final.html">Audios</a></li>
+			<li><a href="Enlaces.html">Enlaces</a></li>
+			<li><a href="Estilos.html">Estilos</a></li>
+		<!--	<li><a href="Formularios.html">Formularios</a></li>-->
+			<li><a href="FuentesTipo.html">Fuentes tipo</a></li>
+			<li><a href="Imagenes.html">Imagenes</a></li>
+			<li><a href="Listas.html">Listas</a></li>
+			<li><a href="Rayas.html"> Tablas-2</a></li>
+			<li><a href="Videos.html">Video</a></li>
+			<li><a href="tablas.html">Tablas</a></li>
+		</ul>
+	</nav>
+<main>
+  <section>
+	  <h2>Formulario de Ingreso o Autenticación</h2>
+	  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto nobis asperiores pariatur libero minima in, suscipit veniam praesentium minus labore.</p>
+	  <form action="Procesamiento.html" method="get">
+		  <label>Usuario</label>
+		  <input type="text" id="Usuario" name="Usuario">
+		  
+		  <label>Contrasena</label>
+		  <input type="password" id="Contrasena" name="Contrasena">
+		  
+		  <input type="submit" value="Enviar">
+	  </form>
+	  </section>
+  <section>
+	    <h2>Formulario Entrevista&nbsp;</h2>
+	    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto nobis asperiores pariatur libero minima in, suscipit veniam praesentium minus labore.</p>
+<form id="form1" name="form1" method="post" action="Procesamiento.html">
+      <h3>Entrevista&nbsp; &nbsp;</h3>
+	      <label>Edad</label>
+<input type="number" name="number" id="number">
+	      
+   
+	    <label for="select">¿De que pais nos visitas?&nbsp;</label>
+	    <select name="select" id="select">
+	      <option>Mexico</option>
+	      <option>España</option>
+	      <option>China</option>
+	      <option>USA</option>
+	      <option>Argentina</option>
+    </select>
+	    <p>
+	      <label>Genero&nbsp;</label>
+			<br>
+	      <label>
+	        <input type="radio" name="Genero" value="femenino" id="Genero_0">
+	        Femenino</label>
+	      <br>
+	      <label>
+	        <input type="radio" name="Genero" value="masculino" id="Genero_1">
+	        Masculino</label>
+	      <br>
+    </p>
+	    <label>¿Qué genero de musica prefieres?&nbsp;</label>
+<table width="200">
+      <tr>
+	        <td><label>
+	          <input type="checkbox" name="CheckboxGroup1" value="rock" id="CheckboxGroup1_0">
+	          Rock</label></td>
+      </tr>
+	      <tr>
+	        <td><label>
+	          <input type="checkbox" name="CheckboxGroup1" value="balada" id="CheckboxGroup1_1">
+	          Balada</label></td>
+          </tr>
+	      <tr>
+	        <td><label>
+	          <input type="checkbox" name="CheckboxGroup1" value="cumbia" id="CheckboxGroup1_2">
+	          Cumbia</label></td>
+          </tr>
+	      <tr>
+	        <td><label>
+	          <input type="checkbox" name="CheckboxGroup1" value="salsa" id="CheckboxGroup1_3">
+	          Salsa</label></td>
+          </tr>
+	      <tr>
+	        <td><label>
+	          <input type="checkbox" name="CheckboxGroup1" value="todo" id="CheckboxGroup1_4">
+	          Todo</label></td>
+          </tr>
+    </table>
+<br>
+<input type="submit" formmethod="GET" value="Enviar" >
+	 </form>
+  </section>
+  <section>
+	    <h2>Formulario de comentarios&nbsp;</h2>
+	    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto nobis asperiores pariatur libero minima in, suscipit veniam praesentium minus labore.</p>
+    <form id="form2" name="form2" method="post" action="Procesamiento.html">
+	      <label for="email">Email:</label>
+			
+          <input type="email" name="email" id="email">
+<br>
+<label for="textarea">Comentar:</label>
+        <br>
+        <textarea name="textarea" cols="20" rows="5" id="textarea">
+        </textarea>
+			<br>
+		<input type="submit" formmethod="GET" value="Enviar" >
+</form>
+	   
+  </section>
+	  <section>
+	    <h2>Formulario con 10 preguntas&nbsp;</h2>
+	    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto nobis asperiores pariatur libero minima in, suscipit veniam praesentium minus labore.</p>
+		  
+	    <form id="form2" name="form2" method="post" action="Procesamiento.html">
+<label for="email2">Email:</label>
+<input type="email" name="email3" id="email2">
+<label for="password">Contraseña:</label>
+<input type="password" name="password" id="password">
+<br>
+<label for="tel">Tel:</label>
+<input type="tel" name="tel" id="tel">
+<br>
+<label>  Genero&nbsp;</label>
+	       <br>
+<p>
+        <label>
+	        <input type="checkbox" name="Genero2" value="femenino" id="Genero2_0">
+	        Femenino</label>
+	      <br>
+<label>
+          <input type="checkbox" name="Genero2" value="masculino" id="Genero2_1">
+	        Masulino</label>
+	      <br>
+        </p>
+<label for="date">Fecha de nacimiento:</label>
+<input type="date" name="date" id="date">
+<br>
+
+<label for="textfield">Nobre de tu sitio web&nbsp; &nbsp;:</label>
+<input type="text" name="textfield" id="textfield">
+
+<br>
+<label for="url">Url de tu sitio web&nbsp; &nbsp;:</label>
+<input type="url" name="url" id="url">
+
+<br>
+<label for="fileField">Muestranos un trabajo hecho por ti:&nbsp;&nbsp;</label>
+<br>
+<input type="file" name="fileField" id="fileField">
+<br>
+<label>¿A que rama del diseño grafico te diriges?&nbsp;</label>
+<table width="200">
+  <tr>
+    <td><label>
+      <input type="checkbox" name="enfoque" value="ilustracion" id="enfoque_0">
+      Ilustración</label></td>
+  </tr>
+  <tr>
+    <td><label>
+      <input type="checkbox" name="enfoque" value="editorial" id="enfoque_1">
+      Diseño editorial</label></td>
+  </tr>
+  <tr>
+    <td><label>
+      <input type="checkbox" name="enfoque" value="marca" id="enfoque_2">
+      Diseño de marca</label></td>
+  </tr>
+  <tr>
+    <td><label>
+      <input type="checkbox" name="enfoque" value="publicidad" id="enfoque_3">
+      Publicidad</label></td>
+  </tr>
+</table>
+
+<label for="textarea2">Describe el porque:</label>
+<br>
+<textarea name="textarea2" id="textarea2"></textarea>
+<br>
+<input type="reset" name="reset" id="reset" value="Restablecer">
+<input type="submit" formmethod="GET" value="Enviar" >
+        </form>
+</section>
+  </main>
+	<footer>
+	  <h4>Elaborado por: Maria del Sol Vazquez&nbsp;&nbsp;</h4>
+</footer>
+</body>
+</html>

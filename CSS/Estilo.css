@@ -1,0 +1,102 @@
+/* CSS Document */
+*{
+	margin: 0px;
+	padding: 0;
+	box-sizing: content-box;
+}
+header, nav, main, footer {
+	width: 100%;
+	margin: 0 auto;
+}
+
+header {
+	background-color: #F8CDE0;
+	color: #6A638C;
+	height: 150px;
+}
+h1{
+	margin: 0 auto;
+	width: 50%;
+	font-size: 50px;
+	text-align: center;
+	padding-top: 40px;
+	padding-bottom: 50px;
+}
+nav {
+	text-align: left;
+	height: 100px;
+	background-color:#6A638C;
+}
+main{
+	height: auto;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	background-color: #D67371;
+}
+section{
+	
+	width: 90%;
+	height: 10px auto;
+	margin: 40px auto;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	padding-left: 25px;
+	background-color: #F8CDE0;
+	border-radius: 10px;
+}
+footer {
+	
+	height: 100px;
+	padding-top: 10px;
+	background-color: #F8CDE0;
+	color: #6A638C;
+	font-size: 25px;
+}
+h6{
+	margin: 0 auto;
+	width: 50%;
+	text-align: center;
+	padding-top: 40px;
+	padding-bottom: 50px;
+}#plantas {
+    width: 50%;
+    height: auto;
+    margin: 20px;
+    border-radius: 20px;
+    border-color: #6A638C;
+}
+.camion_1 {
+    width: 22%;
+    height: 0%;
+    padding-left: 15px;
+    padding-top: 15px;
+}
+#filtro1 {
+    filter: grayscale(100%);
+
+}
+#filter_blue {
+    filter: blur(5px);
+}
+#filter_3 {
+    filter: brightness(50%);
+}
+#filter_contrast {
+    filter: contrast(50%);
+}
+#filter_opacidad {
+    filter: opacity(30%);
+}
+#filter_satura {
+    filter: saturate(50%);
+}
+#filter_sepia {
+    filter: sepia(100%);
+}
+img {
+    width: 30%;
+    height: 0%;
+    padding-left: 35%;
+    text-align: center;
+    padding-top: 15px;
+}
